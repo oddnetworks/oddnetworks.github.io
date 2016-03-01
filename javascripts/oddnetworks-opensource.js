@@ -118,7 +118,7 @@ jQuery(function($){
         $.each(repos, function (i, repo) {
 
           // Ignore forked repos
-          if (o.$ignoreForks && repo.fork) {
+          if (o.$ignoreForks && repo && repo.fork) {
             return;
           }
 
