@@ -5,7 +5,9 @@ var optInRepos = [
   'seneca-odd-views',
   'odd-schemas',
   'seneca-odd-identity',
-  'oddcast'
+  'oddcast',
+  'oddcast-aws-transport',
+  'sync-service'
 ]
 
 // Add custom repos by full_name. Take the org/user and repo name
