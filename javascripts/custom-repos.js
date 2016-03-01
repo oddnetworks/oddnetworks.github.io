@@ -47,9 +47,7 @@ var optInRepos = [
 
 // Add custom repos by full_name. Take the org/user and repo name
 // - e.g. batmanjs/batman from https://github.com/batmanjs/batman
-var customRepos = [
-  'batmanjs/batman'
-]
+var customRepos = []
 
 // Custom repo language, different than that defined by GitHub
 var customRepoLanguage = {
