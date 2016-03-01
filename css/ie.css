@@ -2070,26 +2070,7 @@ a:hover, a:focus {
 .repo-lang {
   margin-left: 5px;
   text-transform: uppercase;
-}
-/* line 119, objects/_cards.scss */
-.coffeescript .repo-lang, .javascript .repo-lang {
-  color: #eff54e;
-}
-/* line 120, objects/_cards.scss */
-.liquid .repo-lang {
-  color: #76ddff;
-}
-/* line 121, objects/_cards.scss */
-.objective-c .repo-lang {
-  color: #d6d6d6;
-}
-/* line 122, objects/_cards.scss */
-.php .repo-lang, .python .repo-lang {
-  color: #d1a4ff;
-}
-/* line 123, objects/_cards.scss */
-.ruby .repo-lang {
-  color: #fea0a0;
+  color: #388be9;
 }
 
 /* line 5, objects/_loader.scss */

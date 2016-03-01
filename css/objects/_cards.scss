@@ -115,10 +115,5 @@
 .repo-lang {
   margin-left: $margin/4;
   text-transform: uppercase;
-
-  .coffeescript &,.javascript & { color: $javascript; }
-  .liquid & { color: $liquid; }
-  .objective-c & { color: $objective-c; }
-  .php &,.python & { color: $php; }
-  .ruby & { color: $ruby; }
+  color: $linkColor;
 }
