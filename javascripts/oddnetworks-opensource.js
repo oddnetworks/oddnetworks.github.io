@@ -38,7 +38,6 @@ jQuery(function($){
 
         // Make sure repos is set (originally in index.html)
         repos = repos ? repos : [];
-        console.log(repos);
 
         // this.getCustomRepos();
         this.addRepos(repos);
