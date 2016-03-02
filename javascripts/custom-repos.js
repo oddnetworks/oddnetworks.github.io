@@ -27,6 +27,16 @@ var customRepoLanguage = {
   'batman': 'JavaScript'
 }
 
+var customRepoCategories = {
+  'seneca-odd-auth': 'Platform',
+  'seneca-odd-views': 'Platform',
+  'odd-schemas': 'Platform',
+  'seneca-odd-identity': 'Platform',
+  'oddcast': 'Platform',
+  'oddcast-aws-transport': 'Platform',
+  'sync-service': 'Platform'
+}
+
 // Custom repo avatars. Dimensions should be 40x40
 // - Be sure a custom repo doesn't have the same name as a Shopify one, or a one will be overridden
 var customRepoAvatar = {

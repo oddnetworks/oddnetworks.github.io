@@ -137,6 +137,13 @@ jQuery(function($){
             repo.languageClass = (repo.language || '').toLowerCase();
           }
 
+          if ( repo.name in customRepoCategories ) {
+            repo.category = customRepoCategories[repo.name];
+            repo.categoryClass = (customRepoCategories[repo.name] || '').toLowerCase();
+          } else {
+            repo.categoryClass = (repo.category || '').toLowerCase();
+          }
+
           // Make sure homepage URLs start with http. If not, add them
           if (repo.homepage && repo.homepage.substring(0, 4) != "http") {
             repo.homepage = 'http://' + repo.homepage;
@@ -147,6 +154,8 @@ jQuery(function($){
             name: repo.name,
             language: repo.language,
             languageClass: repo.languageClass,
+            category: repo.category,
+            categoryClass: repo.categoryClass,
             description: repo.description,
             stars: repo.stargazers_count ? repo.stargazers_count : 0,
             forks: repo.forks_count ? repo.forks_count : 0,
@@ -181,7 +190,7 @@ jQuery(function($){
         var o = this;
 
         // bind filter button click
-        var filterButtons = $('#filters button');
+        var filterButtons = $('.filter-bar button');
         filterButtons.on( 'click', function() {
           filterButtons.removeClass('is-active');
           $(this).addClass('is-active');
