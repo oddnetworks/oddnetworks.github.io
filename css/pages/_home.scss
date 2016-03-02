@@ -70,8 +70,7 @@
 .logo {
   display: block;
   margin: 0 auto;
-  width: 215px;
-  height: 30px;
+  width: 125px;
 
   .lt-ie9 & {
     display: none;
@@ -83,9 +82,8 @@
 }
 
 .lt-ie9 .logo--ie {
-  background: transparent url(/images/shopify-open-source.png) no-repeat;
-  height: 30px;
-  width: 215px;
+  background: transparent url(/images/odd-networks.svg) no-repeat;
+  width: 125px;
 
   @include responsify( $medium_up, true ) {
     float: left;
@@ -109,10 +107,6 @@
 
   p {
     color: $headertextColor;
-  }
-
-  @include responsify( $medium_up, true ) {
-    height: 340px;
   }
 }
 
